@@ -1,0 +1,152 @@
+/***** 
+FONTS 
+******/
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+@font-face {
+  font-family: 'Martini';
+  src: url('Martini-Regular.woff2') format('woff2'),
+      url('Martini-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/******
+GENERAL 
+******/
+
+body {
+  background-color: black;
+
+  font-family: 'Archivo', sans-serif;
+}
+
+/***********
+LANDING PAGE 
+ ***********/
+
+.container-landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  height: 100vh;
+}
+
+.lp-ria-coming-soon {
+  width: 15%;
+}
+
+.container-logo-name-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-logo-name {
+  position: relative;
+  width: fit-content;
+
+  margin-top: 100px;
+}
+
+.lp-ria-logo {
+  position: absolute;
+  top: -120px;
+  margin: 0;
+  width: 100%;
+
+  mix-blend-mode: difference;
+  z-index: 3;
+}
+
+.lp-ria-name {
+  margin: 0;
+
+  color: #f5eb12;
+  font-family: 'Martini';
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 300;
+}
+
+.lp-ria-description {
+  margin-top: 15px;
+
+  color: #0000ff;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.lp-ria-insta img {
+  width: 4vw;
+}
+
+
+
+
+/************ 
+MEDIA QUERIES
+*************/
+
+@media (max-width: 1210px) {
+  .container-landing-page {
+    justify-content: space-around;
+  }
+
+  .lp-ria-coming-soon {
+    width: 20%;
+  }
+}
+
+@media (max-width: 900px) {
+  .lp-ria-coming-soon {
+    width: 25%;
+  }
+
+  .lp-ria-insta img {
+    width: 6vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .lp-ria-coming-soon {
+    width: 35%;
+  }
+
+  .lp-ria-coming-soon {
+    width: 30%;
+  }
+}
+
+@media (max-width: 590px) {
+  .lp-ria-coming-soon {
+    width: 45%;
+  }
+
+  .lp-ria-name {
+    font-size: 2.5em;
+  }
+
+  .lp-ria-logo {
+    top: -100px;
+  }
+
+  .lp-ria-description {
+    font-size: smaller;
+  }
+
+  .lp-ria-insta img {
+    width: 10vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .lp-ria-insta img {
+    width: 15vw;
+  }
+}
