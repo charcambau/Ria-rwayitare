@@ -18,8 +18,8 @@ GENERAL
 
 body {
   background-color: black;
-
   font-family: 'Archivo', sans-serif;
+  cursor: url("img/flash-outlined.png"), auto;
 }
 
 /***********
@@ -33,6 +33,8 @@ LANDING PAGE
   justify-content: space-evenly;
 
   height: 100vh;
+
+  cursor: url("img/flash-outlined.png"), auto;
 }
 
 .lp-ria-coming-soon {
@@ -84,6 +86,7 @@ LANDING PAGE
 
 .lp-ria-insta img {
   width: 4vw;
+  cursor: url('img/flash.filled.png'), pointer;
 }
 
 
