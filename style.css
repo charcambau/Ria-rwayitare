@@ -48,31 +48,12 @@ LANDING PAGE
   justify-content: center;
 }
 
-.container-logo-name {
-  position: relative;
-  width: fit-content;
-
-  margin-top: 100px;
-}
-
 .lp-ria-logo {
-  position: absolute;
-  top: -120px;
+  width: 20%;
   margin: 0;
-  width: 100%;
 
   mix-blend-mode: difference;
   z-index: 3;
-}
-
-.lp-ria-name {
-  margin: 0;
-
-  color: #f5eb12;
-  font-family: 'Martini';
-  text-transform: uppercase;
-  font-size: 3em;
-  font-weight: 300;
 }
 
 .lp-ria-description {
@@ -111,6 +92,10 @@ MEDIA QUERIES
     width: 25%;
   }
 
+  .lp-ria-logo {
+    width: 30%;
+  }
+
   .lp-ria-insta img {
     width: 6vw;
   }
@@ -120,10 +105,6 @@ MEDIA QUERIES
   .lp-ria-coming-soon {
     width: 35%;
   }
-
-  .lp-ria-coming-soon {
-    width: 30%;
-  }
 }
 
 @media (max-width: 590px) {
@@ -131,12 +112,8 @@ MEDIA QUERIES
     width: 45%;
   }
 
-  .lp-ria-name {
-    font-size: 2.5em;
-  }
-
   .lp-ria-logo {
-    top: -100px;
+    width: 35%;
   }
 
   .lp-ria-description {
@@ -151,5 +128,9 @@ MEDIA QUERIES
 @media (max-width: 410px) {
   .lp-ria-insta img {
     width: 15vw;
+  }
+
+  .lp-ria-logo {
+    width: 45%;
   }
 }
