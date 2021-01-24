@@ -78,10 +78,6 @@ MEDIA QUERIES
 *************/
 
 @media (max-width: 1210px) {
-  .container-landing-page {
-    justify-content: space-around;
-  }
-
   .lp-ria-coming-soon {
     width: 20%;
   }
