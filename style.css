@@ -117,10 +117,6 @@ MEDIA QUERIES
 }
 
 @media (max-width: 768px) {
-  .lp-ria-logo {
-    top: -100px;
-  }
-  
   .lp-ria-coming-soon {
     width: 35%;
   }
