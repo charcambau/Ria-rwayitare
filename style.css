@@ -148,7 +148,7 @@ MEDIA QUERIES
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 410px) {
   .lp-ria-insta img {
     width: 15vw;
   }
