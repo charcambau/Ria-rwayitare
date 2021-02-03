@@ -220,9 +220,9 @@ HOMEPAGE
   display: block;
 }
 
-/************************* 
-PROJECT PAGE - FEMALE GAZE
-*************************/
+/*************
+PROJECT PAGES
+**************/
 
 .nav-top-project {
   justify-content: space-between;
@@ -292,6 +292,8 @@ PROJECT PAGE - FEMALE GAZE
 
   overflow: hidden;
 }
+
+/* FEMALE GAZE */
 
 .female-gaze-img-one {
   margin-top: 150px;
@@ -366,6 +368,66 @@ PROJECT PAGE - FEMALE GAZE
   width: 100%;
 }
 
+/* REBIRTH */
+.rebirth-img-one {
+  margin-top: 150px;
+  grid-column: 1/3;
+
+  width: 100%;
+}
+
+.rebirth-img-two {
+  margin-top: 150px;
+  grid-column: 4/5;
+
+  width: 100%;
+}
+
+.rebirth-img-three {
+  margin-top: -30%;
+
+  grid-column: 2/3;
+
+  width: 100%;
+}
+
+.rebirth-img-four {
+  margin-top: 10%;
+
+  grid-column: 4/6;
+
+  width: 100%;
+}
+
+.rebirth-img-five {
+  margin-top: -120%;
+
+  grid-column: 2/3;
+
+  width: 100%;
+}
+
+.rebirth-img-six {
+  margin-top: 15%;
+
+  grid-column: 4/5;
+
+  width: 100%;
+}
+
+.rebirth-img-seven {
+  margin-top: -120%;
+  grid-column: 2/3;
+  width: 100%;
+}
+
+.linkto-female-gaze {
+  width: 15%;
+}
+
+.linkto-female-gaze-img {
+  width: 100%;
+}
 
 /************ 
 MEDIA QUERIES
