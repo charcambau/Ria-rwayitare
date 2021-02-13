@@ -616,9 +616,29 @@ MEDIA QUERIES
   .lp-ria-coming-soon {
     width: 35%;
   }
+
+  /* ABOUT PAGE */
+  .about-sticky-text {
+    margin-left: 15px;
+
+    width: 90%;
+  }
+
+  .ria-img-ovale {
+    transform: translateY(110px);
+  }
+
+  .fade {
+    top: -104px;
+  }
+
+  /* .ria-img-ovale, .ria-img-foulard, .ria-img-bathroom {
+    float: none;
+  } */
 }
 
 @media (max-width: 590px) {
+  /* LANDING PAGE */
   .lp-ria-coming-soon {
     width: 45%;
   }
@@ -633,6 +653,31 @@ MEDIA QUERIES
 
   .lp-ria-insta img {
     width: 10vw;
+  }
+
+  /* ABOUT PAGE */
+  .about-sticky-text {
+    margin-top: -50px;
+  }
+
+  .ria-img-ovale {
+    transform: translateY(150px);
+  }
+}
+
+@media (max-width: 440px) {
+
+  /* ABOUT PAGE */
+  .about-sticky-text, .section-dark-bg {
+    font-size: 1.7em;
+  }
+
+  .section-dark-bg {
+    margin-left: 15px;
+  }
+
+  .fade {
+    top: -100px;
   }
 }
 
