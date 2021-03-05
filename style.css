@@ -636,14 +636,13 @@ font-size: 2em;
 B-ROLL
 ******/
 .b-roll-title {
-  display: none;
   position: absolute;
   right: 5px;
-  top: 0px;
+  top: -30px;
 
   font-family: 'Martini';
   text-transform: uppercase;
-  font-size: 8em;
+  font-size: 6em;
   font-weight: 100;
 }
 
@@ -739,6 +738,14 @@ MEDIA QUERIES
   }
 }
 
+@media (max-width: 1080px) {
+  .b-roll-title {
+    right: 15px;
+    top: 0px;
+    font-size: 4em;
+  }
+}
+
 @media (max-width: 900px) {
   .lp-ria-coming-soon {
     width: 25%;
@@ -755,18 +762,20 @@ MEDIA QUERIES
   /* NAV */
 
   .nav-logo {
-    width: 40%;
+    width: 60%;
     margin-top: 15px;
   }
 
   .nav-links {
-    margin-top: 35px;
+    margin-top: 15px;
   }
 
   /* CONTACT PAGE */
   .contact-title {
-    font-size: 1.5em;
-    top: 8px;
+    font-size: 2.5em;
+    right: 20px;
+    left: auto;
+    top: 50px;
   }
 }
 
@@ -796,7 +805,8 @@ MEDIA QUERIES
 
   /* CONTACT PAGE */
   .contact-title {
-    top: 0;
+    font-size: 2em;
+    top: 40px;
   }
 }
 
@@ -829,16 +839,17 @@ MEDIA QUERIES
 
   /* NAV */
   .nav-logo {
-    width: 50%;
+    margin-top: 30px;
+    width: 55%;
   }
 
   .nav-links {
-    margin-top: 60px;
+    margin-top: 15px;
   }
 
   /* CONTACT PAGE */
   .contact-title {
-    top: 20px;
+    font-size: 1.5em;
     right: 20px;
     text-align: right;
   }
@@ -871,6 +882,16 @@ MEDIA QUERIES
 
   .lp-ria-logo {
     width: 45%;
+  }
+
+  /* NAV */
+  .nav-logo {
+    margin-top: 55px;
+    width: 75%;
+  }
+
+  .nav-links {
+    margin-top: 15px;
   }
 
   /* CONTACT */
