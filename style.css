@@ -768,6 +768,9 @@ MEDIA QUERIES
 
   .nav-links {
     margin-top: 15px;
+    padding-left: 0;
+    width: 80%;
+    justify-content: flex-end;
   }
 
   /* CONTACT PAGE */
@@ -777,6 +780,48 @@ MEDIA QUERIES
     left: auto;
     top: 50px;
   }
+
+  /* HOMEPAGE */
+  .section-rebirth, .section-female-gaze, .section-guenda {
+    margin: 0 auto;
+    width: 75%;
+
+    float: none;
+    clear: both;
+  }
+
+  .main-home {
+    padding-top: 180px;
+  }
+
+  .section-rebirth {
+    margin-bottom: 70px;
+
+    padding-top: 5px;
+  }
+
+  .section-female-gaze {
+    width: 50%;
+
+    margin-top: 20px;
+    margin-right: 37.50%;
+    margin-bottom: 70px;
+
+    padding-top: 5px;
+  }
+
+  .section-guenda {
+    width: 40%;
+
+    margin-right: 47.50%;
+    margin-top: 20px;
+
+    padding-top: 5px;
+  }
+
+  .project-name {
+    display: block;
+  } 
 }
 
 @media (max-width: 768px) {
@@ -807,6 +852,34 @@ MEDIA QUERIES
   .contact-title {
     font-size: 2em;
     top: 40px;
+  }
+
+  /* PROJECT PAGES - Rebirth */
+  .title-subtitle {
+    transform: translateY(50px);
+  }
+
+  .project-title {
+    font-size: 2em;
+  }
+
+  .project-subtitle, .project-with {
+    font-size: .9em;
+  }
+
+  .other-project-links-previous, .other-project-link-next {
+    font-size: .9em;
+  }
+
+  .other-project-links a {
+    padding: 3px;
+  }
+
+  .logo-center-img {
+    position: absolute;
+    width: 15%;
+    top: 5px;
+    left: 5px;
   }
 }
 
@@ -857,6 +930,77 @@ MEDIA QUERIES
   .contact-ria-email {
     font-size: 1.5em;
   }
+
+  /* HOME */
+  .project-name {
+    font-size: 1.8em;
+    top: -55px;
+  }
+
+  /* PROJECT PAGES */
+  .grid-container {
+    padding-top: 150px;
+
+    grid-template-columns: 100%;
+    grid-template-rows: 7fr;
+  }
+
+  .project-img-one, .rebirth-img-one {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 20px;
+
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .project-img-two, .rebirth-img-two {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 20px;
+
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .project-img-three, .rebirth-img-three {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 20px;
+
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .project-img-four, .rebirth-img-four {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 20px;
+
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .project-img-five, .rebirth-img-five {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 20px;
+
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .project-img-six, .rebirth-img-six {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 20px;
+
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .project-img-seven, .rebirth-img-seven {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 20px;
+
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
 }
 
 @media (max-width: 440px) {
@@ -886,7 +1030,7 @@ MEDIA QUERIES
 
   /* NAV */
   .nav-logo {
-    margin-top: 55px;
+    margin-top: 45px;
     width: 75%;
   }
 
