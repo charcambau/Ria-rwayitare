@@ -632,6 +632,101 @@ font-size: 2em;
   font-weight: 100;
 }
 
+/****** 
+B-ROLL
+******/
+.b-roll-title {
+  display: none;
+  position: absolute;
+  right: 5px;
+  top: 0px;
+
+  font-family: 'Martini';
+  text-transform: uppercase;
+  font-size: 8em;
+  font-weight: 100;
+}
+
+.grid-broll {
+  padding-top: 250px;
+
+  display: grid;
+  grid-template-columns: 30% 5% 30% 5% 30%;
+  grid-template-rows: 3fr;
+  align-items:center
+}
+
+.broll-image {
+  width: 100%;
+}
+
+.broll-image-1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+
+  align-self: end;
+}
+
+/* .rounded-elements {
+  
+
+  align-self: end;
+  justify-self: start;
+
+  margin-right: 80px;
+  margin-bottom: 30px;
+} */
+
+/* .broll-image-2 {
+  z-index: 1;
+} */
+
+.i-know-gif {
+  grid-column: 3/4;
+  grid-row: 1/2;
+
+  z-index: -1;
+  justify-self: center;
+  align-self: start;
+
+  width: 150%;
+  margin-bottom: 75px;
+}
+
+.broll-image-3 {
+  grid-column: 5/6;
+  grid-row: 1/2;
+
+  width: 90%;
+  align-self: end;
+}
+
+.broll-image-4 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.broll-image-4, .broll-image-5, .broll-image-6 {
+  margin-top: 45px;
+}
+
+.broll-image-5 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.broll-image-6 {
+  grid-column: 5/6;
+  grid-row: 2/3;
+}
+
+.broll-image-7 {
+  margin-top: 55px;
+
+  grid-column: 3/5;
+  grid-row: 3/4;
+}
+
 /************ 
 MEDIA QUERIES
 *************/
