@@ -822,6 +822,16 @@ MEDIA QUERIES
   .project-name {
     display: block;
   } 
+
+  /* BROLL */
+  .b-roll-title {
+    font-size: 2em;
+    top: 35px;
+  }
+
+  .grid-broll {
+    padding-top: 120px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -881,6 +891,46 @@ MEDIA QUERIES
     top: 5px;
     left: 5px;
   }
+
+  /* BROLL */
+  .b-roll-title {
+    font-size: 1.3em;
+  }
+
+  .grid-broll {
+    grid-template-columns: 100%;
+  }
+
+  .broll-image-1, .i-know-gif, .broll-image-3, .broll-image-4, .broll-image-5, .broll-image-6, .broll-image-7 {
+    grid-column: 1/2;
+    width: 85%;
+    justify-self: center;
+  }
+
+  .broll-image-1 {
+    grid-row: 2/3;
+    margin-top: -140px;
+    z-index: -1;
+  }
+  .i-know-gif {
+    grid-row: 1/2;
+  }
+  .broll-image-3 {
+    grid-row: 3/4;
+  }
+  .broll-image-4 {
+    grid-row: 4/5;
+  }
+  .broll-image-5 {
+    grid-row: 5/6;
+  }
+  .broll-image-6 {
+    grid-row: 6/7;
+  }
+  .broll-image-7 {
+    grid-row: 7/8;
+  }
+
 }
 
 @media (max-width: 590px) {
@@ -1017,6 +1067,11 @@ MEDIA QUERIES
   .fade {
     top: -100px;
   }
+
+  /* B-ROLL */
+  .grid-broll {
+    padding-top: 80px;
+  }
 }
 
 @media (max-width: 410px) {
@@ -1030,8 +1085,8 @@ MEDIA QUERIES
 
   /* NAV */
   .nav-logo {
-    margin-top: 45px;
-    width: 75%;
+    margin-top: 25px;
+    width: 70%;
   }
 
   .nav-links {
@@ -1041,5 +1096,10 @@ MEDIA QUERIES
   /* CONTACT */
   .contact-paragraph {
     font-size: smaller;
+  }
+  
+  /* BROLL */
+  .b-roll-title {
+    top: 55px;
   }
 }
