@@ -301,15 +301,14 @@ PROJECT PAGES
 
 .other-project-links a {
   padding: 10px;
+  margin-top: 10px;
 
   text-decoration: none;
   color: #0000ff;
   text-transform: lowercase;
   font-weight: 300;
-}
 
-.other-project-link-next {
-  padding-bottom: 5px;
+  z-index: 3;
 }
 
 .linkto-nextproject {
