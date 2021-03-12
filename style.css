@@ -708,6 +708,8 @@ CONTACT PAGE
   text-align: center;
   font-size: 2em;
   font-weight: 100;
+
+  display: none;
 }
 
 .contact-main {
@@ -736,6 +738,16 @@ font-size: 2em;
   color:#F5EB12 ;
   text-transform: uppercase;
   font-weight: 100;
+}
+
+.get-in-touch-gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+
+  z-index: -2;
 }
 
 /****** 
@@ -1218,6 +1230,10 @@ MEDIA QUERIES
 
   .contact-ria-email {
     font-size: 1.5em;
+  }
+
+  .get-in-touch-gif {
+    top: 50vh;
   }
 
   /* HOME */
