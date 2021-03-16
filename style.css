@@ -384,7 +384,7 @@ PROJECT PAGES
 }
 
 .female-gaze-img-three {
-  margin-top: 6%;
+  margin-top: 5vw;
 
   grid-column: 1/3;
 
@@ -394,7 +394,7 @@ PROJECT PAGES
 }
 
 .female-gaze-img-four {
-  margin-top: -30%;
+  margin-top: -28%;
 
   grid-column: 4/5;
 
@@ -404,7 +404,7 @@ PROJECT PAGES
 }
 
 .female-gaze-img-five {
-  margin-top: 10%;
+  margin-top: 5vw;
 
   grid-column: 2/3;
 
@@ -414,12 +414,90 @@ PROJECT PAGES
 }
 
 .female-gaze-img-six {
-  margin-top: 7%;
+  margin-top: 5vw;
   grid-column: 4/6;
   width: 100%;
-
+  
   transform-origin: right;
 }
+
+.female-gaze-img-eight {
+  margin-top: -92px;
+  grid-column: 4/6;
+  grid-row: 4/5;
+  width: 100%;
+  
+  transform-origin: right;
+}
+
+.female-gaze-img-seven {
+  margin-top: -21vw;
+
+  grid-column: 2/3;
+
+  width: 100%;
+
+  transform-origin: left;
+}
+
+.female-gaze-img-nine {
+  margin-top: 5vw;
+
+  grid-column: 1/3;
+
+  width: 100%;
+
+  transform-origin: left;
+}
+
+.female-gaze-img-ten {
+  margin-top: 5vw;
+  grid-column: 4/6;
+  width: 100%;
+  
+  transform-origin: right;
+}
+
+.female-gaze-img-eleven {
+  margin-top: -48vw;
+  grid-column: 1/3;
+  width: 100%;
+  
+  transform-origin: right;
+}
+
+.female-gaze-img-twelve {
+  margin-top: 5vw;
+  grid-column: 4/6;
+  width: 100%;
+  
+  transform-origin: right;
+}
+
+.female-gaze-img-thirteen {
+  margin-top: -47.5vw;
+  grid-column: 1/3;
+  width: 100%;
+  
+  transform-origin: left;
+}
+
+.female-gaze-img-fourteen {
+  margin-top: -6vw;
+  grid-column: 1/3;
+  width: 100%;
+  
+  transform-origin: left;
+}
+
+.female-gaze-img-fifteen {
+  margin-top: 5vw;
+  grid-column: 4/6;
+  width: 100%;
+  
+  transform-origin: left;
+}
+
 
 /* other projects links */
 
