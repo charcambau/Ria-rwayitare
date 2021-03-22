@@ -332,9 +332,9 @@ PROJECT PAGES
   color: #0000ff;
 
   position: absolute;
-  font-size: 4.5em;
-  left: -30px;
-  bottom: 0;
+  font-size: 2em;
+  left: 20px;
+  top: -50px;
   opacity: 0;
 }
 
