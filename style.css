@@ -16,12 +16,18 @@ FONTS
 GENERAL 
 ******/
 
+/* * {
+  box-sizing: border-box;
+} */
+
 body {
   background-color: black;
   font-family: 'Archivo', sans-serif;
   cursor: url("img/flash-empty.png"), auto;
 
   color: #0000ff;
+
+  overflow-x: hidden;
 }
 
 a:hover {
@@ -1069,6 +1075,13 @@ MEDIA QUERIES
     top: 0px;
     font-size: 4em;
   }
+
+  /* ABOUT */
+  .mobile-dark-under {
+    width: 100vw;
+    height: 30px;
+    background-color: black;
+  }
 }
 
 @media (max-width: 900px) {
@@ -1332,7 +1345,7 @@ MEDIA QUERIES
   }
 
   .nav-links {
-    margin-top: 15px;
+    margin-top: 0px;
   }
 
   /* CONTACT PAGE */
@@ -1425,7 +1438,7 @@ MEDIA QUERIES
 @media (max-width: 440px) {
   /* HOME */
   .home-grid {
-    padding-top: 110px;
+    padding-top: 140px;
   }
 
   /* ABOUT PAGE */
@@ -1435,6 +1448,7 @@ MEDIA QUERIES
 
   .section-dark-bg {
     margin-left: 15px;
+    width: 100vw;
   }
 
   .fade {
@@ -1458,12 +1472,8 @@ MEDIA QUERIES
 
   /* NAV */
   .nav-logo {
-    margin-top: 25px;
+    margin-top: 35px;
     width: 70%;
-  }
-
-  .nav-links {
-    margin-top: 15px;
   }
 
   /* CONTACT */
