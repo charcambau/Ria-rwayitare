@@ -16,9 +16,9 @@ FONTS
 GENERAL 
 ******/
 
-/* * {
+* {
   box-sizing: border-box;
-} */
+}
 
 body {
   background-color: black;
@@ -1474,6 +1474,10 @@ MEDIA QUERIES
   .nav-logo {
     margin-top: 35px;
     width: 70%;
+  }
+
+  .nav-links {
+    font-size: 1.2em;
   }
 
   /* CONTACT */
