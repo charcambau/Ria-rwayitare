@@ -624,7 +624,7 @@ PROJECT PAGES
 /* GUENDA */
 
 .guenda-img-one {
-  margin-top: 150px;
+  margin-top: 20vw;
 
   grid-column: 2/3;
 
@@ -634,7 +634,7 @@ PROJECT PAGES
 }
 
 .guenda-img-two {
-  margin-top: 150px;
+  margin-top:20vw;
 
   grid-column: 4/5;
 
@@ -644,7 +644,7 @@ PROJECT PAGES
 }
 
 .guenda-img-three {
-  margin-top: 10%;
+  margin-top: 5vw;
 
   grid-column: 1/3;
 
@@ -654,7 +654,7 @@ PROJECT PAGES
 }
 
 .guenda-img-four {
-  margin-top: 10%;
+  margin-top: 5vw;
 
   grid-column: 4/6;
 
@@ -664,9 +664,129 @@ PROJECT PAGES
 }
 
 .guenda-img-five {
-  margin-top: -120%;
+  margin-top: -35vw;
 
   grid-column: 4/5;
+
+  width: 100%;
+
+  transform-origin: left;
+}
+
+.guenda-img-six {
+  margin-top: -5vw;
+
+  grid-column: 1/3;
+
+  width: 100%;
+
+  transform-origin: left;
+}
+
+.guenda-img-seven {
+  margin-top: 5vw;
+
+  grid-column: 4/6;
+
+  width: 100%;
+
+  transform-origin: right;
+}
+
+.guenda-img-eight {
+  margin-top: 5vw;
+
+  grid-column: 1/3;
+
+  width: 100%;
+
+  transform-origin: left;
+}
+
+.guenda-img-nine {
+  margin-top: -25vw;
+
+  grid-column: 4/5;
+
+  width: 100%;
+
+  transform-origin: right;
+}
+
+.guenda-img-ten {
+  margin-top: 5vw;
+
+  grid-column: 1/3;
+
+  width: 100%;
+
+  transform-origin: left;
+}
+
+.guenda-img-eleven {
+  margin-top: -51vw;
+
+  grid-column: 4/6;
+
+  width: 100%;
+
+  transform-origin: right;
+}
+
+.guenda-img-twelve {
+  margin-top: -11vw;
+
+  grid-column: 4/6;
+
+  width: 100%;
+
+  transform-origin: right;
+}
+
+.guenda-img-thirteen {
+  margin-top: -15vw;
+
+  grid-column: 1/3;
+
+  width: 100%;
+
+  transform-origin: left;
+}
+
+.guenda-img-fourteen {
+  margin-top: 5vw;
+
+  grid-column: 4/6;
+
+  width: 100%;
+
+  transform-origin: right;
+}
+
+.guenda-img-fifteen {
+  margin-top: 5vw;
+
+  grid-column: 1/3;
+
+  width: 100%;
+
+  transform-origin: left;
+}
+
+.guenda-img-sixteen {
+  margin-top: -15vw;
+
+  grid-column: 4/6;
+
+  width: 100%;
+
+  transform-origin: left;
+}
+
+.guenda-img-seventeen {
+  margin-top: -15vw;
+
+  grid-column: 1/3;
 
   width: 100%;
 
@@ -1432,6 +1552,14 @@ MEDIA QUERIES
 
     grid-column: 1/2;
     grid-row: 4/5;
+  }
+  
+  .project-img-eight, .project-img-nine, .project-img-ten, .project-img-eleven, .project-img-twelve, .project-img-thirteen, .project-img-fourteen, .project-img-fifteen, .project-img-sixteen, .project-img-seventeen {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 20px;
+
+    grid-column: 1/2;
   }
 }
 
