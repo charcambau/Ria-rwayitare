@@ -1111,27 +1111,36 @@ B-ROLL
   justify-self: end;
 }
 
-.broll-image-15 {
+.img-15-wrapper {
   margin-top: 5vw;
 
   grid-column: 5/6;
   grid-row: 7/8;
 
   width: 130%;
+  height: 82%;
 
   align-self: start;
   justify-self: end;
+
+  overflow: hidden;
+}
+.broll-image-15 {
+  width: 100%;
 }
 
-.broll-image-16 {
-  margin-top: 55px;
+.broll-image-21 {
+  /* margin-top: -245px; */
 
   grid-column: 1/2;
+  width: 100%;
+  align-self: start;
+  justify-self: end;
   grid-row: 8/9;
 }
 
 .broll-image-17 {
-  margin-top: 55px;
+  /* margin-top: 55px; */
   grid-column: 5/6;
   grid-row: 8/9;
 
@@ -1168,11 +1177,11 @@ B-ROLL
   align-self: start;
 }
 
-.broll-image-21 {
-  margin-top: 55px;
+.broll-image-16 {
+  /* margin-top: 55px; */
 
-  grid-column: 5/6;
-  grid-row: 9/10;
+  grid-column: 3/4;
+  grid-row: 8/9;
 
   align-self: end;
 }
