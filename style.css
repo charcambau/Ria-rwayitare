@@ -4,9 +4,10 @@ FONTS
 @import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
 
 @font-face {
-  font-family: 'Martini';
-  src: url('Martini-Regular.woff2') format('woff2'),
-      url('Martini-Regular.woff') format('woff');
+  font-family: "Martini";
+  src: url("Martini-Regular.woff2") format("woff2"),
+      url("Martini-Regular.woff") format("woff"),
+      url("martini-regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -103,6 +104,7 @@ LANDING PAGE
   font-size: 24px;
   text-transform: uppercase;
   font-weight: 100;
+  font-family: "Martini";
 }
 
 .lp-ria-insta img {
@@ -147,9 +149,10 @@ HOMEPAGE
   list-style-type: none;
   padding-right: 25px;
 
-  font-family: 'Martini';
+  font-family: "Martini";
   text-transform: uppercase;
   font-size: 1.5em;
+  /* font-weight: 600; */
 }
 
 .link {
@@ -221,7 +224,7 @@ HOMEPAGE
   display: none;
 
   color: #0000ff;
-  font-family: 'Martini';
+  font-family: "Martini";
   text-transform: uppercase;
   font-size: 3em;
 
@@ -268,7 +271,7 @@ PROJECT PAGES
   /* margin-top: 10px; */
   margin-left: 10px;
 
-  font-family: 'Martini';
+  font-family: "Martini";
   color: #0000ff;
   text-transform: uppercase;
   font-size: 4.5em;
@@ -825,7 +828,7 @@ ABOUT US
 }
 
 .word-uppercase {
-  font-family: 'Martini';
+  font-family: "Martini";
   text-transform: uppercase;
   font-size: 1.3em;
 }
@@ -908,7 +911,7 @@ CONTACT PAGE
   margin-top: 5px;
 
   text-transform: uppercase;
-  font-family: 'Martini';
+  font-family: "Martini";
   text-align: center;
   font-size: 2em;
   font-weight: 100;
@@ -966,7 +969,7 @@ B-ROLL
   right: 5px;
   top: -30px;
 
-  font-family: 'Martini';
+  font-family: "Martini";
   text-transform: uppercase;
   font-size: 6em;
   font-weight: 100;
@@ -1269,6 +1272,13 @@ MEDIA QUERIES
     width: 6vw;
   }
 
+
+  /* HOVER */
+  .hover-over:hover {
+    transform: none;
+    z-index: 1;
+  }
+
   /* NAV */
 
   .nav-logo {
@@ -1282,8 +1292,6 @@ MEDIA QUERIES
     margin-top: 25px;
     padding-left: 0;
     justify-content: flex-end;
-
-    font-size: 1.2em;
   }
 
   /* CONTACT PAGE */
@@ -1354,10 +1362,8 @@ MEDIA QUERIES
     width: 35%;
   }
 
-  /* HOVER */
-  .hover-over:hover {
-    transform: none;
-    z-index: 1;
+  .nav-links {
+    font-size: 1.2em;
   }
 
   /* HOME */
