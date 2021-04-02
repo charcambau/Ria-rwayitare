@@ -1663,6 +1663,9 @@ MEDIA QUERIES
   .nav-top {
     flex-direction: column;
   }
+  .nav-top-project {
+    flex-direction: row;
+  }
   .nav-logo {
     transform: translateY(50px);
     width: 55%;
