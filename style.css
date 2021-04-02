@@ -1549,23 +1549,23 @@ MEDIA QUERIES
     width: 10vw;
   }
 
-    /* HOME */
-    .section-rebirth, .section-guenda, .section-female-gaze {
-      margin: 0 auto;
-      margin-bottom: 50px;
-      width: 85%;
-    }
-    .section-guenda {
-      margin-bottom: 0;
-    }
+  /* HOME */
+  .section-rebirth, .section-guenda, .section-female-gaze {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 85%;
+  }
+  .section-guenda {
+    margin-bottom: 0;
+  }
 
-    .section-female-gaze:hover .project-img-female-gaze {
-      display: block;
-    }
-    
-    .section-female-gaze:hover .project-gif-female-gaze {
-      display: none;
-    }
+  .section-female-gaze:hover .project-img-female-gaze {
+    display: block;
+  }
+  
+  .section-female-gaze:hover .project-gif-female-gaze {
+    display: none;
+  }
 
   /* ABOUT PAGE */
   .about-sticky-text {
@@ -1577,8 +1577,11 @@ MEDIA QUERIES
   }
 
   /* NAV */
+  .nav-top {
+    flex-direction: column;
+  }
   .nav-logo {
-    margin-top: 30px;
+    transform: translateY(50px);
     width: 55%;
   }
 
@@ -1589,6 +1592,8 @@ MEDIA QUERIES
 
   .nav-links {
     width: 90%;
+    margin: 20px auto;
+    justify-content: space-between;
   }
 
   /* CONTACT PAGE */
