@@ -1645,8 +1645,20 @@ MEDIA QUERIES
   .section-female-gaze:hover .project-img-female-gaze {
     display: block;
   }
+  .section-guenda:hover .project-img-guenda {
+    display: block;
+  }
+  .section-rebirth:hover .project-img-rebirth {
+    display: block;
+  }
   
   .section-female-gaze:hover .project-gif-female-gaze {
+    display: none;
+  }
+  .section-guenda:hover .project-gif-guenda {
+    display: none;
+  }
+  .section-rebirth:hover .project-gif-rebirth {
     display: none;
   }
 
