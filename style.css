@@ -1676,7 +1676,26 @@ MEDIA QUERIES
     flex-direction: column;
   }
   .nav-top-project {
-    flex-direction: row;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+  }
+  .nav-top-project .nav-links {
+    align-self: flex-start;
+  }
+  .title-subtitle {
+    transform: none;
+  }
+  .other-project-links {
+    top: 90px;
+  }
+  .other-project-links-previous, .other-project-link-next {
+    font-size: 1.1em;
+  }
+  .logo-center-img {
+    top: 55px;
+    right: 25px;
+    left: inherit;
   }
   .nav-logo {
     transform: translateY(50px);
