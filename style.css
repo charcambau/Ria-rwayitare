@@ -1448,7 +1448,8 @@ MEDIA QUERIES
 
   /* BROLL */
   .b-roll-title {
-    font-size: 1.3em;
+    font-size: 2.5em;
+    top: 10px;
   }
 
   .grid-broll {
@@ -1629,6 +1630,11 @@ MEDIA QUERIES
     width: 50%;
   }
 
+  /* BROLL */
+  .b-roll-title {
+    top: 35px;
+  }
+
   /* PROJECT PAGES */
   .grid-container {
     padding-top: 150px;
@@ -1726,8 +1732,9 @@ MEDIA QUERIES
   }
 
   /* B-ROLL */
-  .grid-broll {
-    padding-top: 80px;
+  .b-roll-title {
+    top: 40px;
+    font-size: 2em;
   }
 }
 
