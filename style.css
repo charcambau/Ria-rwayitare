@@ -5,9 +5,9 @@ FONTS
 
 @font-face {
   font-family: "Martini";
-  src: url("../Ria-rwayitare/fonts/Martini-Regular.woff2") format("woff2"),
-      url("../Ria-rwayitare/fonts/Martini-Regular.woff") format("woff"),
-      url("../Ria-rwayitare/fonts/martini-regular.ttf") format("truetype");
+  src: url("/fonts/Martini-Regular.woff2") format("woff2"),
+      url("/fonts/Martini-Regular.woff") format("woff"),
+      url("/fonts/martini-regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
