@@ -240,7 +240,7 @@ HOMEPAGE
   display: block;
 }
 
-.project-gif-female-gaze {
+.project-gif-female-gaze, .project-gif-guenda, .project-gif-rebirth {
   display: none;
   z-index: -1;
 
@@ -250,8 +250,20 @@ HOMEPAGE
 .section-female-gaze:hover .project-img-female-gaze {
   display: none;
 }
+.section-guenda:hover .project-img-guenda {
+  display: none;
+}
+.section-rebirth:hover .project-img-rebirth {
+  display: none;
+}
 
 .section-female-gaze:hover .project-gif-female-gaze {
+  display: block;
+}
+.section-guenda:hover .project-gif-guenda {
+  display: block;
+}
+.section-rebirth:hover .project-gif-rebirth {
   display: block;
 }
 
@@ -656,7 +668,7 @@ PROJECT PAGES
 }
 
 .rebirth-img-twelve {
-  margin-top: -280px;
+  margin-top: -220px;
 
   grid-column: 1/3;
 
@@ -676,7 +688,7 @@ PROJECT PAGES
 }
 
 .rebirth-img-fourteen {
-  margin-top: -210px;
+  margin-top: -220px;
 
   grid-column: 2/3;
 
