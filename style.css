@@ -303,6 +303,14 @@ PROJECT PAGES
   font-weight: 300;
 }
 
+.project-title-long {
+  line-height: .7em;
+}
+
+.project-subtitle-long {
+  margin-top: 15px;
+}
+
 .logo-center {
   margin: 0 auto;
   align-self: center;
@@ -1500,9 +1508,19 @@ MEDIA QUERIES
   .nav-top-project {
     display: flex;
   }
-  
+
   .logo-center {
     width: 10%;
+  }
+
+  .project-title-long {
+    line-height: auto;
+    transform: translateY(20px);
+  }
+  
+  .project-subtitle-long {
+    margin-top: 5px;
+    transform: translateY(20px);
   }
 
   .linkto-nextproject .linktoproject-name {
