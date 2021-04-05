@@ -274,7 +274,13 @@ PROJECT PAGES
 /* GENERAL */
 
 .nav-top-project {
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 25% 12.5% 25% 12.5% 25%;
+}
+
+.title-subtitle {
+  grid-column: 1/2;
+  align-self: start;
 }
 
 .project-title {
@@ -300,7 +306,13 @@ PROJECT PAGES
 .logo-center {
   margin: 0 auto;
   align-self: center;
-  width: 10%;
+  grid-column: 3/4;
+  width: 50%;
+}
+
+.nav-top-project .nav-links {
+  grid-column: 4/6;
+  justify-self: end;
 }
 
 .logo-center-img {
@@ -1485,6 +1497,14 @@ MEDIA QUERIES
     /* border-top: 1px solid #0000ff; */
   }
 
+  .nav-top-project {
+    display: flex;
+  }
+  
+  .logo-center {
+    width: 10%;
+  }
+
   .linkto-nextproject .linktoproject-name {
     opacity: 100;
     left: 0;
@@ -1676,6 +1696,7 @@ MEDIA QUERIES
     flex-direction: column;
   }
   .nav-top-project {
+    display: flex;
     flex-direction: column-reverse;
     justify-content: flex-start;
     /* align-items: flex-start; */
