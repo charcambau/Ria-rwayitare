@@ -462,7 +462,7 @@ PROJECT PAGES
 }
 
 .female-gaze-img-eight {
-  margin-top: -92px;
+  margin-top: -472px;
   grid-column: 4/6;
   grid-row: 4/5;
   width: 100%;
@@ -471,7 +471,7 @@ PROJECT PAGES
 }
 
 .female-gaze-img-seven {
-  margin-top: -21vw;
+  margin-top: 5vw;
 
   grid-column: 2/3;
 
@@ -491,7 +491,7 @@ PROJECT PAGES
 }
 
 .female-gaze-img-ten {
-  margin-top: 5vw;
+  margin-top: -6vw;
   grid-column: 4/6;
   width: 100%;
   
@@ -499,7 +499,7 @@ PROJECT PAGES
 }
 
 .female-gaze-img-eleven {
-  margin-top: -48vw;
+  margin-top: -11vw;
   grid-column: 1/3;
   width: 100%;
   
@@ -1358,6 +1358,23 @@ MEDIA QUERIES
     height: 30px;
     background-color: black;
   }
+
+  /* PROJECT PAGES */
+  .female-gaze-img-eight {
+    margin-top: -46vw;
+  }
+
+  .female-gaze-img-thirteen {
+    margin-top: -10.5vw;
+  }
+
+  .female-gaze-img-fifteen {
+    margin-top: -20vw;
+  }
+
+  .female-gaze-img-fourteen {
+    margin-top: 5vw;
+  }
 }
 
 @media (max-width: 900px) {
@@ -1570,6 +1587,7 @@ MEDIA QUERIES
   .b-roll-title {
     font-size: 2.5em;
     top: 10px;
+    right: 25px;
   }
 
   .grid-broll {
